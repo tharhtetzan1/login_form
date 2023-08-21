@@ -129,12 +129,12 @@ body {
 
 /* nav mobile menu */
 .mobile_menu_active {
-  box-shadow: inset 0px 0px 30px #ff0235;
+  box-shadow: inset 0px 0px 30px #ab0505;
 
 }
 
 .offcanvas-header {
-  background-color: #9d243c;
+  background-color: #ab0505;
 }
 
 .offcanvas-body {
@@ -152,7 +152,7 @@ body {
   position: relative;
   font-size: 1.2em;
   padding: 0.7em 1.4em;
-  background-color: #BF0426;
+  background-color: #ab0505;
   text-decoration: none;
   border: none;
   border-radius: 0.5em;
@@ -206,7 +206,7 @@ body {
   bottom: 0;
   right: 100%;
   left: 0;
-  background: #9d243c;
+  background: #ab0505;
   opacity: 0;
   z-index: -1;
   transition: all 0.5s;
@@ -577,17 +577,47 @@ main {
 
 /* contact */
 
+.contact_main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+
 .box_for_contact {
   background-color: #000000e7;
   color: white;
-  padding: 10px;
+  padding: 20px;
   box-sizing: border-box;
   border-radius: 10px;
-  width: 50%;
-  margin: 0 auto;
-  margin-bottom: 10px;
+  width:400px;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #000000e7;
+  transition: 0.3s;
+
 }
 
+.contact{
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+
+}
+
+.contact:hover{
+  color:#ab0505;
+  transition: 0.3s;
+}
+
+.box_for_contact:hover{
+  border: 2px solid #ab0505;
+  transition: 0.3s;
+
+}
+.contact_font_size {
+  font-size: 40px;
+}
 
 
 
