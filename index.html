@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" class="">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" class="">
+    <meta class="" name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-logo-container">
+                <a href="./index.html" class="container center">
+                    <img src="./img/Pngtree-video-logo.png" alt="" class="nav-logo">
+                </a>
+            </div>
+            <div class="nav-text-container">
+                <button class="nav_button active ">
+                    <a href="./index.html" class="nav-text">Login</a>
+                </button>
+                <button class="nav_button">
+                    <a href="./about.html" class="nav-text">About Us</a>
+                </button>
+                <button class="nav_button">
+                    <a href="./register.html" class="nav-text ">Register</a>
+                </button>
+                <button class="nav_button">
+                    <a href="./contact.html" class="nav-text">Contact</a>
+                </button>
+            </div>
+            <div class="mobile_menu">
+
+
+
+                <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
+                    class="offcanvas_button">
+                    <b>Fold me!</b>
+                </button>
+
+
+
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            <button class="d-block w-100 mobile_menu_button my-2 mobile_menu_active">
+                                <a href="./index.html" class="nav-text">Login</a>
+                            </button>
+                            <button class="d-block w-100 mobile_menu_button my-2">
+                                <a href="./about.html" class="nav-text">About Us</a>
+                            </button>
+                            <button class="active d-block w-100 mobile_menu_button my-2">
+                                <a href="./register.html" class="nav-text ">Register</a>
+                            </button>
+                            <button class="d-block w-100 mobile_menu_button my-2">
+                                <a href="./contact.html" class="nav-text">Contact</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="login_box_container">
+
+
+        <div class="login-box">
+            <form>
+                <div class="user-box">
+                    <input required="" name="" type="text">
+                    <label>Email</label>
+                </div>
+                <div class="user-box">
+                    <input required="" name="" type="password">
+                    <label>Password</label>
+                </div>
+                <a class="submit" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Submit
+                </a>
+            </form>
+
+            <br>
+
+            <div style="display:flex;margin-top: 10px;justify-content: space-between;">
+                <div class="d-flex ">
+                    <label class="container w-25">
+                        <input type="checkbox">
+                        <svg viewBox="0 0 64 64" height="1em" width="1em">
+                            <path
+                                d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16"
+                                pathLength="575.0541381835938" class="path"></path>
+                        </svg>
+                    </label>
+
+                    <p class="h-100 w-100">keep me logged in</p>
+
+                </div>
+
+                <div style="margin-left: 10px;">
+                    <a style="color: white;text-decoration: none ;" href="">Forgot your password?</a>
+                </div>
+            </div>
+
+            <p>Don't have an account? <a href="" class="a2">Sign up!</a></p>
+        </div>
+
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    </main>
+
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_left">
+                <p class="me-3 my-auto">About Us</p>
+                <p class="me-3 my-auto">Privacy Policy </p>
+                <p class="me-3 my-auto">Terms of Use</p>
+            </div>
+
+            <div class="footer_right ">
+                <p class="my-auto">© 2023 key.All Rights Reserved | Design by TharHtetZan</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
