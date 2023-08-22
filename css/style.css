@@ -16,14 +16,14 @@ body {
 
 
 .header {
-  background-color: #000000d2;
+  background-color: #000000ab;
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
 .header_for_about_us {
-  background-color: #000000d2;
+  background-color: #000000cb;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -236,19 +236,17 @@ main {
 
 /* login box */
 
-.login_box_container {
-  display: flex;
-
-}
+.login_box_container {}
 
 .login-box {
 
-  /* position: relative;
+  position: absolute;
   top: 50%;
-  left: 50%; */
+  left: 50%;
   width: 350px;
   padding: 20px;
   margin: 0 auto;
+  transform: translate(-50%, -55%);
   background: rgba(0, 0, 0, .8);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
@@ -507,19 +505,7 @@ main {
   height: 400px;
 }
 
-.about_us_footer {
-  background-color: #000000;
-  color: white;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
-  position: relative;
-  bottom: 0;
-}
-
 /* for register */
-.register_main {}
-
 
 .box_for_register {
   background-color: #000000e7;
@@ -529,7 +515,13 @@ main {
   width: 350px;
   padding: 20px;
   margin: 0 auto;
-
+  margin-bottom: 10px;
+  border: 2px solid #000000e7;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .title {
@@ -594,7 +586,6 @@ main {
   justify-content: space-around;
   align-items: center;
   height: auto;
-  margin-top: 50px;
 }
 
 .box_for_contact {
@@ -604,21 +595,21 @@ main {
   border-radius: 10px;
   width: 350px;
   padding: 20px;
-  margin:  20px;
+  margin: 0 auto;
+  margin-bottom: 10px;
   border: 2px solid #000000e7;
   transition: 0.3s;
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: nowrap;
-
+  
 }
 
 .contact {
   text-decoration: none;
   color: white;
   transition: 0.3s;
-
+  
 }
 
 .contact:hover {
@@ -637,8 +628,8 @@ main {
 }
 
 
-.contact_text {
-  text-align: center;
+.contact_text{
+text-align: center;
 }
 
 
@@ -646,13 +637,19 @@ main {
 
 
 .footer {
-  background-color: #000000d2;
+  background-color: #000000a0;
   color: white;
-  bottom: 0;
+  position: fixed;
   width: 100%;
-  height: 80px;
-  position: absolute;
   bottom: 0;
+  height: 90px;
+}
+
+.footer_for_about_us {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  height: 90px;
 }
 
 .footer_container {
@@ -676,7 +673,7 @@ main {
 }
 
 
-.footer_fs {
+.footer_right_fs{
   font-size: small;
 }
 
